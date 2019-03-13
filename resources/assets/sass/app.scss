@@ -1,0 +1,64 @@
+
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+//@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+*{
+  font-weight: 400 !important;
+}
+
+.table thead tr th {
+  font-size: 0.8rem;
+  color: $header_color;
+  font-weight: bold !important;
+}
+
+th[scope='row']{
+  font-weight: bold !important;
+}
+
+.sidebar[data-color="azure"] li.active > a {
+  box-shadow: 0 4px 20px 0px rgba(248, 244, 244, 0), 0 7px 10px -5px rgba(255, 255, 255, 0.4);
+}
+
+.card .card-header-info .card-icon, .card .card-header-info:not(.card-header-icon):not(.card-header-text), .card .card-header-info .card-text {
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(247, 249, 250, 0);
+}
+
+.btn:focus, .btn:active, .btn:hover, .btn.btn-default:focus, .btn.btn-default:active, .btn.btn-default:hover {
+  box-shadow: 0 14px 26px -12px rgba(255, 255, 255, 0.42), 0 4px 23px 0px rgba(245, 242, 242, 0.12), 0 8px 10px -5px rgba(255, 255, 255, 0.2)!important;
+}
+
+.btn-info:hover {
+  color: #ffffff;
+  background-color: #0086c2!important;
+  border-color: #0086c2!important;
+}
+
+.header-filter:before,
+.header-filter:after {
+  z-index: -1;
+  content: none;
+}
+
+.count-customer{
+  color:#555 !important;
+  text-align: center !important;
+}
+
+.btn.btn-info {
+  color: #fff;
+  background-color: #014EA2;
+  border-color: #014EA2;
+  box-shadow: 0 2px 2px 0 rgba(0, 188, 212, 0), 0 3px 1px -2px rgba(0, 188, 212, 0), 0 1px 5px 0 rgba(0, 188, 212, 0);
+}

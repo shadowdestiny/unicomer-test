@@ -1,0 +1,1 @@
+ web: vendor/bin/heroku-php-apache2 -i config_php.ini public/
